@@ -1,0 +1,9 @@
+# Não versionar segredos ou dados operacionais sensíveis
+.env
+.env.*
+!.env.example
+node_modules/
+credenciais/
+dados-reais/
+*.pem
+*.key

@@ -1,0 +1,137 @@
+{
+  "status": "proposta-nao-aplicada",
+  "modules": {
+    "F1-M01": {
+      "title": "Encontrar a obra e seus documentos",
+      "criteria": [
+        "CA-1-001-01",
+        "CA-1-001-02",
+        "CA-1-001-03",
+        "CA-1-001-04",
+        "CA-1-004-01",
+        "CA-1-004-02",
+        "CA-1-004-03"
+      ],
+      "legacy_tasks": [
+        "F1-T01",
+        "F1-T02",
+        "F1-T03",
+        "F1-T04",
+        "F1-T05"
+      ],
+      "legacy_uuids": {
+        "F1-T01": "35d4f8f3-714b-4404-8543-38f8f9974c47",
+        "F1-T02": "f3e897ec-af61-40e3-8941-17c3ad607a1a",
+        "F1-T03": "6138da00-3e34-4f42-ae23-21814bdaf229",
+        "F1-T04": "2686cb43-7964-4776-abb1-23153da0b796",
+        "F1-T05": "290dfa1a-3ea5-4872-be53-811fd48c8b51"
+      }
+    },
+    "F1-M02": {
+      "title": "Saber o que cada área precisa resolver",
+      "criteria": [
+        "CA-1-002-01",
+        "CA-1-002-02",
+        "CA-1-002-03",
+        "CA-1-002-04"
+      ],
+      "legacy_tasks": [
+        "F1-T06",
+        "F1-T07"
+      ],
+      "legacy_uuids": {
+        "F1-T06": "0f5ff144-1078-4b42-a3ca-c7093f7ec071",
+        "F1-T07": "8238be5c-df96-43df-a508-5186ff84506a"
+      }
+    },
+    "F1-M03": {
+      "title": "Usar a Lista Master correta sem perder a anterior",
+      "criteria": [
+        "CA-1-003-01",
+        "CA-1-003-02",
+        "CA-1-003-03",
+        "CA-1-003-04",
+        "CA-1-003-05",
+        "CA-1-004-04",
+        "CA-1-004-05"
+      ],
+      "legacy_tasks": [
+        "F1-T08",
+        "F1-T09",
+        "F1-T10",
+        "F1-T11",
+        "F1-T12"
+      ],
+      "legacy_uuids": {
+        "F1-T08": "3757420d-67a5-466d-85c5-3930cb4de25a",
+        "F1-T09": "273e5a9a-1af1-4cac-8db0-8d1899c79d4c",
+        "F1-T10": "cc5c54c2-eda8-4df9-b188-406b054bc105",
+        "F1-T11": "59246d23-837b-4cad-915f-552160de5f1f",
+        "F1-T12": "e5298229-b604-4c0b-8dda-833de2c4831d"
+      }
+    },
+    "F1-M04": {
+      "title": "Medir o esforço e o retrabalho sem inventar ganho",
+      "criteria": [
+        "CA-1-005-01",
+        "CA-1-005-02",
+        "CA-1-005-03",
+        "CA-1-005-04"
+      ],
+      "legacy_tasks": [
+        "F1-T13",
+        "F1-T14"
+      ],
+      "legacy_uuids": {
+        "F1-T13": "f52386a0-adbb-4ca0-8f86-3e626661c185",
+        "F1-T14": "385628ef-32f4-4f82-b1fb-4f040eff4a13"
+      }
+    },
+    "F1-M05": {
+      "title": "Entender e conferir o saldo contratual da obra",
+      "criteria": [
+        "CA-1-006-01",
+        "CA-1-006-02",
+        "CA-1-006-03",
+        "CA-1-006-04"
+      ],
+      "legacy_tasks": [
+        "F1-T15",
+        "F1-T16"
+      ],
+      "legacy_uuids": {
+        "F1-T15": "d25addda-de02-4269-874e-759e2f342fae",
+        "F1-T16": "db535ce5-7333-43ee-bfe3-f45a76922afd"
+      }
+    }
+  },
+  "source_criteria": [
+    "CA-1-001-01",
+    "CA-1-001-02",
+    "CA-1-001-03",
+    "CA-1-001-04",
+    "CA-1-002-01",
+    "CA-1-002-02",
+    "CA-1-002-03",
+    "CA-1-002-04",
+    "CA-1-003-01",
+    "CA-1-003-02",
+    "CA-1-003-03",
+    "CA-1-003-04",
+    "CA-1-003-05",
+    "CA-1-004-01",
+    "CA-1-004-02",
+    "CA-1-004-03",
+    "CA-1-004-04",
+    "CA-1-004-05",
+    "CA-1-005-01",
+    "CA-1-005-02",
+    "CA-1-005-03",
+    "CA-1-005-04",
+    "CA-1-006-01",
+    "CA-1-006-02",
+    "CA-1-006-03",
+    "CA-1-006-04"
+  ],
+  "preservation": "UUIDs legados são histórico; nenhum ID de módulo foi publicado"
+}

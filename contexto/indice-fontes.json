@@ -1,0 +1,53 @@
+{
+  "mode": "derivado_operacional_integral_sem_brutos",
+  "date": "2026-10-08",
+  "scope": "Plano f5a5acb7 e Holder apenas",
+  "sources": [
+    {
+      "id": "1NtT-HP4HOBZprd65IL40qxaZOzrSx9BG",
+      "path": "Plano/03-Projeto/02-Escopo-Definitivo.md",
+      "size": 28288,
+      "md5_verificado": true,
+      "use": "referencia_interna_nao_copiada"
+    },
+    {
+      "id": "1E0D4qZWBqS5Cy35-bAzWlA37tFqh0yH3",
+      "path": "Plano/03-Projeto/analise-do-consultor.md",
+      "size": 22809,
+      "md5_verificado": true,
+      "use": "referencia_interna_nao_copiada"
+    },
+    {
+      "id": "14OAr0iMCjPP07_gsEeqmgMJLpMAlvRP7",
+      "path": "Plano/03-Projeto/01-Escopo.md",
+      "size": 43043,
+      "md5_verificado": true,
+      "use": "referencia_interna_nao_copiada"
+    },
+    {
+      "id": "1XAyMKWwx-Zr5SO4YY1W3rbuXlBcTpxkK",
+      "path": "Plano/04-Mapeamento-Processos/00-Contexto/Etapa01-Resumo.xlsx",
+      "size": 17387,
+      "md5_verificado": true,
+      "use": "referencia_interna_nao_copiada"
+    },
+    {
+      "id": "19YWFa_ofv6lrMs0YSYgmtXvOhnHu3aLo",
+      "path": "Plano/03-Projeto/02-Plano_de_acao/00.tasks_per_fase/fase_1.md",
+      "size": 21870,
+      "md5_verificado": true,
+      "use": "referencia_interna_nao_copiada"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "6aad89f47e9bb30014920807",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "6ac3fa8bc09249001310aca4",
+      "date": "2026-10-05"
+    }
+  ],
+  "limit": "Vídeos não vistos; análises derivadas e documentos/reuniões usados na comparação. Documentos reais não enviados."
+}

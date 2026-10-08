@@ -1,0 +1,15 @@
+# Dicionário
+- Obra: identidade estável do empreendimento; nome/alias não cria nova identidade.
+- Escopo: recorte contratado/técnico da obra.
+- Marca/código: identidade de origem da peça; correspondência incerta exige confirmação.
+- Revisão: versão preservada; referência documental exige ato de Projetos, não libera fabricação por si.
+- Lista Master: itens requeridos por escopo/revisão; resumo de peso não é lista de peças.
+- Orçamento/meta: referência comercial e alvo de contratação; percentual depende de validação.
+- OC: pedido/compromisso, com emissão/envio/confirmação distintos; vem antes da NF.
+- Romaneio: informação de expedição; não comprova recebimento/aceite.
+- Recebido/aceito/divergente: estados distintos; faltante/recusado não consome necessidade.
+- Saldo material atendido: requerido menos aceito; não é estoque disponível.
+- Provisão/NF/pagamento: conceitos distintos; documento não prova liquidação.
+- Saldo contratual a faturar: contrato vigente e aditivos menos faturamentos homologados que o consomem; hipótese até validação financeira.
+- Resultado/lucro: não decorre do saldo a faturar; depende de perímetro e cobertura próprios.
+- Contexto integral: processo funcional completo autorizado, não acesso irrestrito a qualquer arquivo do Drive.
