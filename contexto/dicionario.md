@@ -13,3 +13,11 @@
 - Saldo contratual a faturar: contrato vigente e aditivos menos faturamentos homologados que o consomem; hipótese até validação financeira.
 - Resultado/lucro: não decorre do saldo a faturar; depende de perímetro e cobertura próprios.
 - Contexto integral: processo funcional completo autorizado, não acesso irrestrito a qualquer arquivo do Drive.
+- Família documental: conjunto de arquivos com finalidade e campos semelhantes, como lista de telhas, resumo de peso, tabela de reações ou romaneio; cada família exige mapeamento próprio.
+- Prévia de importação: leitura validável que ainda não altera a referência vigente.
+- Referência vigente: revisão escolhida por autoridade humana para consulta e comparação; não equivale a liberação de fabricação.
+- Meta de suprimentos: referência parametrizada para contratação; percentual de redução observado não é política aprovada.
+- Faturamento direto: compra faturada ao cliente final; seu tratamento contábil e no saldo depende de regra homologada.
+- Cobertura: parcela das fontes necessárias efetivamente presente, atualizada e reconciliada para um cálculo ou indicador.
+- Handoff: passagem de informação e responsabilidade entre áreas; deve preservar origem, dono, estado e evidência.
+- RNC: registro de não conformidade que mantém divergência, responsável e resolução rastreáveis.

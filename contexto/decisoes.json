@@ -25,5 +25,14 @@
     "statement": "Estado declarou Skip 64034 v0.0.11 BOOT implementado e teste humano pendente. Nao inspecionado neste kit.",
     "source_ref": "Investigacao 08/10 do repo legado",
     "scope": "Declaracao tecnica, nao PASS atual ou aceite."
+  },
+  {
+    "id": "D-CONTEXTO-CENTRAL",
+    "status": "confirmed",
+    "by": "Navaar",
+    "at": "2026-10-08",
+    "statement": "A informacao util do Drive deve ficar no centro das ideias do repo, organizada por significado e rastreabilidade, sem copiar arquivos brutos ou dados reais.",
+    "source_ref": "Pedido do usuario na conversa de 08/10/2026",
+    "scope": "Documentacao e modelo de contexto; nao autoriza implementacao, integracao ou ativacao."
   }
 ]

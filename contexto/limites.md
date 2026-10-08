@@ -5,3 +5,7 @@ Fora: ERP financeiro corporativo, RH, CRM, marketing, fabricação de terceiros,
 10% de redução e três propostas são práticas observadas, não políticas automaticamente homologadas. Não congelar avanço por ausência de dados que só afeta um domínio.
 Dados incompletos: null/não informado, não zero; cobertura parcial não vira saldo oficial. APIs SIGO/ERP/WhatsApp não comprovadas; iniciar entrada/mapeamento assistidos autorizados.
 Formatos reais variam: resumos de peso, listas com marcas/dimensões, planilhas de suprimentos com m²/kg/m/vb. Preservar original e mapeamento de cada família; não inventar peça/peso/código nem prometer parser universal.
+
+Arquivos brutos do Drive não pertencem a este repositório de contexto. Gravações, desenhos, planilhas com linhas reais, contratos, e-mails, endereços, preços e dados de clientes ficam na origem autorizada. O repo registra ideias, esquemas, decisões, exceções, perguntas e rastreabilidade suficiente para entender o produto.
+
+Ideias amplas do DMO e da Sales Call — CRM, RH, marketing, horas extras, diário de obra, BIM móvel, QR code e substituição integral do ERP — permanecem registradas, mas fora do ciclo atual. Elas não podem orientar implementação sem nova decisão de escopo.

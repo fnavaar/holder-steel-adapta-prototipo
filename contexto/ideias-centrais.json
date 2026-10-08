@@ -1,0 +1,118 @@
+{
+  "version": "2026-10-08",
+  "purpose": "Organizar o contexto integral do Drive por ideias de produto, sem incorporar dados reais, segredos ou arquivos brutos.",
+  "source_catalog": "contexto/cobertura-fontes-drive.md",
+  "ideas": [
+    {
+      "id": "IC-01",
+      "title": "Escalar obras com informação confiável",
+      "status": "confirmed_context",
+      "outcome": "Ampliar obras simultâneas com qualidade, prazo, segurança e atendimento, reduzindo procura, redigitação e retrabalho.",
+      "boundaries": ["Sem ganho percentual antes de baseline real", "Ciclo atual do contrato ao material aceito, com financeiro da obra"],
+      "module_refs": ["F1-M01", "F1-M04", "F1-M05"],
+      "source_refs": ["SRC-DRIVE-DMO", "SRC-DRIVE-REUNIOES", "SRC-DRIVE-ESCOPO"]
+    },
+    {
+      "id": "IC-02",
+      "title": "A obra como eixo comum entre áreas",
+      "status": "confirmed_context",
+      "outcome": "Reunir identidade, escopos, condições, documentos, marcos e pendências em uma obra estável.",
+      "human_gates": ["Validar registro", "Definir prontidão", "Confirmar assinatura e liberações"],
+      "module_refs": ["F1-M01", "F1-M02"],
+      "source_refs": ["SRC-DRIVE-REUNIOES", "SRC-DRIVE-MAPEAMENTO", "SRC-DRIVE-ESCOPO"]
+    },
+    {
+      "id": "IC-03",
+      "title": "Lista Master e famílias documentais",
+      "status": "confirmed_context",
+      "outcome": "Normalizar documentos por família, com prévia, validação, revisão explícita e original preservado.",
+      "exceptions": ["Resumo de peso não é lista de peças", "Peso ou código ausente não vira zero nem inferência", "Referência documental não libera fabricação"],
+      "module_refs": ["F1-M03"],
+      "source_refs": ["SRC-DRIVE-DOCUMENTOS", "SRC-DRIVE-MAPEAMENTO", "SRC-DRIVE-ESCOPO"]
+    },
+    {
+      "id": "IC-04",
+      "title": "Projeto, revisão e comparação de peso",
+      "status": "confirmed_context",
+      "outcome": "Vincular projeto, cálculo, documento e comparação à obra, escopo e revisão corretos.",
+      "open_questions": ["Tolerância de peso", "Autoridade da revisão", "Fonte e software oficiais", "Aprovação de engenharia de valor"],
+      "phase_refs": [2],
+      "source_refs": ["SRC-DRIVE-MAPEAMENTO", "SRC-DRIVE-DOCUMENTOS", "SRC-DRIVE-ESCOPO"]
+    },
+    {
+      "id": "IC-05",
+      "title": "Suprimentos decide com rastreabilidade",
+      "status": "confirmed_context",
+      "outcome": "Comparar propostas equivalentes e registrar escolha, autor, razão, exceção e impacto sem seleção automática.",
+      "open_questions": ["Alçadas", "Mínimo de propostas", "Regra de meta ou desconto"],
+      "phase_refs": [2],
+      "source_refs": ["SRC-DRIVE-MAPEAMENTO", "SRC-DRIVE-REUNIOES", "SRC-DRIVE-ESCOPO"]
+    },
+    {
+      "id": "IC-06",
+      "title": "Compra e ordem de compra com estados reais",
+      "status": "confirmed_context",
+      "outcome": "Ligar solicitação, proposta, decisão, OC, itens, condição de faturamento e evidências sem duplicar emissão.",
+      "event_states": ["solicitada", "emitida", "enviada", "confirmada", "provisionada", "com_nf", "cancelada", "paga_quando_comprovado"],
+      "phase_refs": [3],
+      "source_refs": ["SRC-DRIVE-MAPEAMENTO", "SRC-DRIVE-ESCOPO"]
+    },
+    {
+      "id": "IC-07",
+      "title": "Expedição, recebimento e saldo material",
+      "status": "confirmed_context",
+      "outcome": "Distinguir requerido, expedido, recebido, aceito, divergente, reposto e devolvido por escopo.",
+      "formula": "saldo_material_atendido = requerido - aceito",
+      "exceptions": ["Romaneio não prova aceite", "Divergente não consome necessidade", "Saldo não prova prontidão de montagem"],
+      "phase_refs": [3],
+      "source_refs": ["SRC-DRIVE-MAPEAMENTO", "SRC-DRIVE-REUNIOES", "SRC-DRIVE-ESCOPO"]
+    },
+    {
+      "id": "IC-08",
+      "title": "Financeiro da obra reconciliável",
+      "status": "confirmed_context",
+      "outcome": "Separar e reconciliar contrato, aditivo, provisão, faturamento, NF, cancelamento e pagamento.",
+      "formula_hypothesis": "saldo_a_faturar = contrato_vigente + aditivos_aprovados - faturamentos_homologados_que_consumem_o_contrato",
+      "human_gates": ["Homologar categorias", "Homologar fórmula", "Validar faturamento direto e cancelamentos", "Reconciliar com apuração independente"],
+      "module_refs": ["F1-M05"],
+      "phase_refs": [4, 5],
+      "source_refs": ["SRC-DRIVE-MAPEAMENTO", "SRC-DRIVE-REUNIOES", "SRC-DRIVE-ESCOPO"]
+    },
+    {
+      "id": "IC-09",
+      "title": "Gestão mede cobertura antes de resultado",
+      "status": "confirmed_context",
+      "outcome": "Exibir indicadores por obra com conceito, fonte, atualização, cobertura e drill-down.",
+      "baseline_candidates": ["Minutos para consolidar saldo físico", "Minutos para consolidar saldo contratual", "Proporção de handoffs devolvidos ou corrigidos"],
+      "module_refs": ["F1-M04"],
+      "phase_refs": [5],
+      "source_refs": ["SRC-DRIVE-DMO", "SRC-DRIVE-MAPEAMENTO", "SRC-DRIVE-ESCOPO"]
+    },
+    {
+      "id": "IC-10",
+      "title": "Segurança, histórico e recuperação",
+      "status": "confirmed_context",
+      "outcome": "Aplicar autorização por obra e perfil, auditoria, idempotência, versionamento e recuperação como critérios de aceite.",
+      "module_refs": ["F1-M01", "F1-M03"],
+      "source_refs": ["SRC-DRIVE-PLANO", "SRC-DRIVE-ESCOPO"]
+    },
+    {
+      "id": "IC-11",
+      "title": "Decisões e exceções humanas",
+      "status": "confirmed_context",
+      "outcome": "Manter dono, marco, evidência e efeito por domínio sem transformar sugestão da IA em aprovação.",
+      "champion": "Felipe Farias",
+      "source_refs": ["SRC-AUTORIA", "SRC-DRIVE-ESCOPO", "SRC-DRIVE-PLANO"]
+    },
+    {
+      "id": "IC-12",
+      "title": "Assistente e loops controlados",
+      "status": "candidate_not_active",
+      "outcome": "Preparar resumo de materiais e consolidação financeira com fontes homologadas e revisão humana.",
+      "forbidden_actions": ["Enviar cobrança", "Criar ou aprovar compra", "Aceitar material", "Lançar despesa", "Mudar fórmula", "Pagar"],
+      "phase_refs": [4, 5],
+      "source_refs": ["SRC-DRIVE-ASSISTENTE", "SRC-DRIVE-ESCOPO"]
+    }
+  ]
+}
+

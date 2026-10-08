@@ -16,11 +16,15 @@
     "preview_version": null
   },
   "context_files": [
+    "contexto/ideias-centrais.md",
+    "contexto/ideias-centrais.json",
+    "contexto/cobertura-fontes-drive.md",
     "contexto/objetivo.md",
     "contexto/processo-atual.md",
     "contexto/combinados.md",
     "contexto/limites.md",
-    "contexto/dicionario.md"
+    "contexto/dicionario.md",
+    "contexto/fontes.json"
   ],
   "phases": [
     {

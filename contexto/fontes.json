@@ -1,17 +1,57 @@
 [
   {
     "id": "SRC-PROCESSO",
-    "kind": "derivado",
-    "reference": "Comparacao do Drive 08/10; Plano f5a5acb7; videos nao vistos, analises derivadas consultadas."
+    "kind": "derived",
+    "reference": "Auditoria do Drive em 08/10/2026: 132 arquivos lidos; oito videos de processo representados pelas analises correspondentes."
   },
   {
     "id": "SRC-AUTORIA",
     "kind": "decision-source",
-    "reference": "Autoria 05/10 validada pelo consultor; apontada no contexto original."
+    "reference": "Autoria de 05/10/2026 validada pelo consultor e refletida no escopo definitivo v2, checks, SPECs e changelog."
   },
   {
     "id": "SRC-LEGADO",
     "kind": "criteria-source",
-    "reference": "Seis SPECs F1 v2 e 26 CAs selados na investigacao 08/10."
+    "reference": "Seis SPECs F1 v2 e 26 criterios de aceite preservados na investigacao de 08/10/2026."
+  },
+  {
+    "id": "SRC-DRIVE-CATALOGO",
+    "kind": "coverage-index",
+    "reference": "contexto/cobertura-fontes-drive.md; inventario normalizado SHA256 a9ea787c3581b615f278f7e8306b49dc410628d02758da6450b928a9cae4e2c1."
+  },
+  {
+    "id": "SRC-DRIVE-DMO",
+    "kind": "strategy-source",
+    "reference": "DMO de 08/09/2026: visao, maturidade, gargalos, aspiracoes e contexto operacional; dados reais nao copiados."
+  },
+  {
+    "id": "SRC-DRIVE-REUNIOES",
+    "kind": "meeting-source",
+    "reference": "Sales Call de 28/08/2026 e Kickoff de 18/09/2026, com transcricoes, atas, decisoes, fluxos e insights."
+  },
+  {
+    "id": "SRC-DRIVE-MAPEAMENTO",
+    "kind": "process-source",
+    "reference": "Oito analises de videos: Etapas 01, 02, 04.1, 04.2 e 05; Projetos 1 e 2; abertura de pedido de compra."
+  },
+  {
+    "id": "SRC-DRIVE-DOCUMENTOS",
+    "kind": "document-family-source",
+    "reference": "Onze planilhas e 22 PDFs usados para identificar familias, campos, revisoes e variacoes; dados reais e binarios excluidos."
+  },
+  {
+    "id": "SRC-DRIVE-ESCOPO",
+    "kind": "scope-source",
+    "reference": "Escopo base e definitivo, requisitos, revisao, analise critica e analise do consultor."
+  },
+  {
+    "id": "SRC-DRIVE-PLANO",
+    "kind": "execution-contract-source",
+    "reference": "Plano de cinco fases, SPECs, tasks, contrato tecnico, matriz e historico pre-Skip."
+  },
+  {
+    "id": "SRC-DRIVE-ASSISTENTE",
+    "kind": "assistant-design-source",
+    "reference": "Setup Ethos, identidade, limites, conectores candidatos, mapa de agentes e dois loops candidatos; nenhum ativo."
   }
 ]

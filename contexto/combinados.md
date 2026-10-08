@@ -3,6 +3,8 @@
 ## Decisão atual — 08/10/2026
 Navaar confirmou desenho do repo/fluxo de co-design, nome fnavaar/holder-steel-adapta-prototipo, privacidade e contexto operacional integral autorizado ao Maestro cliente. Conteúdo acessível pode ser explicado ao usuário. Criar/publicar docs, não instalar plugin global, convidar usuários, ativar contas ou implementar aplicativo.
 
+Na mesma data, Navaar definiu que a informação do Drive deve ficar no centro das ideias do repositório, e não como cópia de pastas. A organização canônica passa por `ideias-centrais.md` e `ideias-centrais.json`, com cobertura demonstrada em `cobertura-fontes-drive.md`. Brutos, valores, dados pessoais e documentos reais continuam fora.
+
 ## Decisões operacionais de origem
 Autoria humana validada em 05/10: sistema integrado por obra, financeiro da obra no ciclo, implantação progressiva; coleta/saneamento incremental; no máximo três métricas com baseline real; regras parametrizadas, seleção/aprovação/aceite humanos; acesso/histórico/recuperação antes do uso real correspondente.
 Champion Felipe Farias confirmado; respostas de áreas/terceiros entram por ele. Não exigir confirmação direta do Financeiro se Champion entrega a resposta; preservar origem/veredito recebido.
