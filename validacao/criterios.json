@@ -1,266 +1,236 @@
-{
-  "version": "piloto-0.1",
-  "kind": "criterios-legados-preservados",
-  "items": [
-    {
-      "id": "CA-1-001-01",
-      "module_id": "F1-M01",
-      "source_spec": "spec-1-001-obra-kickoff.md",
-      "expected": "Criar draft, preencher e validar registro gera ficha persistida com código estável e 1 escopo, sem liberação contratual.",
-      "proof_id": "P-001-01",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-001-02",
-      "module_id": "F1-M01",
-      "source_spec": "spec-1-001-obra-kickoff.md",
-      "expected": "Operador de Planejamento lê operacional sem ver valor/condições detalhadas/anexo comercial; obra B não é listada.",
-      "proof_id": "P-001-02",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-001-03",
-      "module_id": "F1-M01",
-      "source_spec": "spec-1-001-obra-kickoff.md",
-      "expected": "Documento válido é privado e recuperável por autorizado; arquivo inválido e falha de gravação não deixam vínculo.",
-      "proof_id": "P-001-03",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-001-04",
-      "module_id": "F1-M01",
-      "source_spec": "spec-1-001-obra-kickoff.md",
-      "expected": "Duplicidade, repetição e concorrência não criam duas obras nem sobrescrevem versão; inativar preserva histórico.",
-      "proof_id": "P-001-04",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-002-01",
-      "module_id": "F1-M02",
-      "source_spec": "spec-1-002-pendencias-handoffs.md",
-      "expected": "Lista mostra pendência sem dono, por área, e concluídos recuperáveis por filtro.",
-      "proof_id": "P-002-01",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-002-02",
-      "module_id": "F1-M02",
-      "source_spec": "spec-1-002-pendencias-handoffs.md",
-      "expected": "Transições válidas registram dono, motivo/evidência e timestamp; conclusão sem prova é recusada.",
-      "proof_id": "P-002-02",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-002-03",
-      "module_id": "F1-M02",
-      "source_spec": "spec-1-002-pendencias-handoffs.md",
-      "expected": "Atribuição só aceita membro ativo da obra e apenas usuário autorizado pode escrever.",
-      "proof_id": "P-002-03",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-002-04",
-      "module_id": "F1-M02",
-      "source_spec": "spec-1-002-pendencias-handoffs.md",
-      "expected": "Repetição/conflito não duplica evento nem some com pendência; histórico não revela anexo restrito.",
-      "proof_id": "P-002-04",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-003-01",
-      "module_id": "F1-M03",
-      "source_spec": "spec-1-003-lista-master-importacao.md",
-      "expected": "Arquivo válido produz prévia sem alterar reference e confirmação cria exatamente os itens esperados.",
-      "proof_id": "P-003-01",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-003-02",
-      "module_id": "F1-M03",
-      "source_spec": "spec-1-003-lista-master-importacao.md",
-      "expected": "Erros por linha impedem confirmação; peso ausente gera aviso sem falso total.",
-      "proof_id": "P-003-02",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-003-03",
-      "module_id": "F1-M03",
-      "source_spec": "spec-1-003-lista-master-importacao.md",
-      "expected": "Repetição, revisão simultânea e falha de confirmação não duplicam ou perdem a referência anterior.",
-      "proof_id": "P-003-03",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-003-04",
-      "module_id": "F1-M03",
-      "source_spec": "spec-1-003-lista-master-importacao.md",
-      "expected": "Arquivo excessivo/fórmula/permissão inválida é rejeitado sem item ativo ou vazamento da obra.",
-      "proof_id": "P-003-04",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-003-05",
-      "module_id": "F1-M03",
-      "source_spec": "spec-1-003-lista-master-importacao.md",
-      "expected": "Referência documental exige Projetos e recuperação preserva versões; não altera saldo físico.",
-      "proof_id": "P-003-05",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-004-01",
-      "module_id": "F1-M01",
-      "source_spec": "spec-1-004-acesso-auditoria-recuperacao.md",
-      "expected": "Sessão e política negam acesso por obra/ação e revogação/expiração têm efeito na próxima requisição.",
-      "proof_id": "P-004-01",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-004-02",
-      "module_id": "F1-M01",
-      "source_spec": "spec-1-004-acesso-auditoria-recuperacao.md",
-      "expected": "Mutação+audit+idempotência são atômicos e concorrência não sobrescreve.",
-      "proof_id": "P-004-02",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-004-03",
-      "module_id": "F1-M01",
-      "source_spec": "spec-1-004-acesso-auditoria-recuperacao.md",
-      "expected": "Histórico e download não vazam segredo nem dado comercial ao operacional.",
-      "proof_id": "P-004-03",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-004-04",
-      "module_id": "F1-M03",
-      "source_spec": "spec-1-004-acesso-auditoria-recuperacao.md",
-      "expected": "Reversão sem downstream reativa predecessora por evento; casos inseguros recusam.",
-      "proof_id": "P-004-04",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-004-05",
-      "module_id": "F1-M03",
-      "source_spec": "spec-1-004-acesso-auditoria-recuperacao.md",
-      "expected": "Snapshot lógico reimportado no sandbox mantém identidade, arquivo privado, permissão e revisão, sem tocar origem.",
-      "proof_id": "P-004-05",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-005-01",
-      "module_id": "F1-M04",
-      "source_spec": "spec-1-005-baseline-instrumentacao.md",
-      "expected": "Duas medidas físicas de 12 e 18 minutos produzem média/mediana 15, n=2, com fonte/volume; financeiro fica restrito.",
-      "proof_id": "P-005-01",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-005-02",
-      "module_id": "F1-M04",
-      "source_spec": "spec-1-005-baseline-instrumentacao.md",
-      "expected": "Dois handoffs corrigidos por motivo alvo entre dez produzem 20%; duplicidade não aumenta denominador.",
-      "proof_id": "P-005-02",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-005-03",
-      "module_id": "F1-M04",
-      "source_spec": "spec-1-005-baseline-instrumentacao.md",
-      "expected": "Ausência de reais, valores inválidos, data externa e homologação sem dono não geram baseline oficial.",
-      "proof_id": "P-005-03",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-005-04",
-      "module_id": "F1-M04",
-      "source_spec": "spec-1-005-baseline-instrumentacao.md",
-      "expected": "Plano validado tem mudança controlada, permissão e auditoria; não calcula ganho ou meta sem confirmação.",
-      "proof_id": "P-005-04",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-006-01",
-      "module_id": "F1-M05",
-      "source_spec": "spec-1-006-modelo-saldo-reconciliacao.md",
-      "expected": "Método discrimina fontes/categorias, contrato/aditivo e consumo; cada componente tem referência.",
-      "proof_id": "P-006-01",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-006-02",
-      "module_id": "F1-M05",
-      "source_spec": "spec-1-006-modelo-saldo-reconciliacao.md",
-      "expected": "Exemplo sintético homologável pelo método resulta em 70000 e documento duplicado não muda o saldo.",
-      "proof_id": "P-006-02",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-006-03",
-      "module_id": "F1-M05",
-      "source_spec": "spec-1-006-modelo-saldo-reconciliacao.md",
-      "expected": "Cancelamento rastreado e fonte/regra ausente impedem declaração indevida de saldo oficial.",
-      "proof_id": "P-006-03",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    },
-    {
-      "id": "CA-1-006-04",
-      "module_id": "F1-M05",
-      "source_spec": "spec-1-006-modelo-saldo-reconciliacao.md",
-      "expected": "Reconciliação real exige diferença zero e manifestação financeira; impedimento tem dono/marco e não remove promessa.",
-      "proof_id": "P-006-04",
-      "status": "nao_revalidado_neste_repo",
-      "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
-      "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
-    }
-  ]
-}
+[
+  {
+    "id": "CA-1-001-01",
+    "module_id": "F1-M01",
+    "expected": "Criar draft, preencher e validar registro gera ficha persistida com código estável e 1 escopo, sem liberação contratual.",
+    "proof_id": "P-001-01",
+    "source_spec": "spec-1-001-obra-kickoff.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-001-02",
+    "module_id": "F1-M01",
+    "expected": "Operador de Planejamento lê operacional sem ver valor/condições detalhadas/anexo comercial; obra B não é listada.",
+    "proof_id": "P-001-02",
+    "source_spec": "spec-1-001-obra-kickoff.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-001-03",
+    "module_id": "F1-M01",
+    "expected": "Documento válido é privado e recuperável por autorizado; arquivo inválido e falha de gravação não deixam vínculo.",
+    "proof_id": "P-001-03",
+    "source_spec": "spec-1-001-obra-kickoff.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-001-04",
+    "module_id": "F1-M01",
+    "expected": "Duplicidade, repetição e concorrência não criam duas obras nem sobrescrevem versão; inativar preserva histórico.",
+    "proof_id": "P-001-04",
+    "source_spec": "spec-1-001-obra-kickoff.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-002-01",
+    "module_id": "F1-M02",
+    "expected": "Lista mostra pendência sem dono, por área, e concluídos recuperáveis por filtro.",
+    "proof_id": "P-002-01",
+    "source_spec": "spec-1-002-pendencias-handoffs.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-002-02",
+    "module_id": "F1-M02",
+    "expected": "Transições válidas registram dono, motivo/evidência e timestamp; conclusão sem prova é recusada.",
+    "proof_id": "P-002-02",
+    "source_spec": "spec-1-002-pendencias-handoffs.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-002-03",
+    "module_id": "F1-M02",
+    "expected": "Atribuição só aceita membro ativo da obra e apenas usuário autorizado pode escrever.",
+    "proof_id": "P-002-03",
+    "source_spec": "spec-1-002-pendencias-handoffs.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-002-04",
+    "module_id": "F1-M02",
+    "expected": "Repetição/conflito não duplica evento nem some com pendência; histórico não revela anexo restrito.",
+    "proof_id": "P-002-04",
+    "source_spec": "spec-1-002-pendencias-handoffs.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-003-01",
+    "module_id": "F1-M03",
+    "expected": "Arquivo válido produz prévia sem alterar reference e confirmação cria exatamente os itens esperados.",
+    "proof_id": "P-003-01",
+    "source_spec": "spec-1-003-lista-master-importacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-003-02",
+    "module_id": "F1-M03",
+    "expected": "Erros por linha impedem confirmação; peso ausente gera aviso sem falso total.",
+    "proof_id": "P-003-02",
+    "source_spec": "spec-1-003-lista-master-importacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-003-03",
+    "module_id": "F1-M03",
+    "expected": "Repetição, revisão simultânea e falha de confirmação não duplicam ou perdem a referência anterior.",
+    "proof_id": "P-003-03",
+    "source_spec": "spec-1-003-lista-master-importacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-003-04",
+    "module_id": "F1-M03",
+    "expected": "Arquivo excessivo/fórmula/permissão inválida é rejeitado sem item ativo ou vazamento da obra.",
+    "proof_id": "P-003-04",
+    "source_spec": "spec-1-003-lista-master-importacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-003-05",
+    "module_id": "F1-M03",
+    "expected": "Referência documental exige Projetos e recuperação preserva versões; não altera saldo físico.",
+    "proof_id": "P-003-05",
+    "source_spec": "spec-1-003-lista-master-importacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-004-01",
+    "module_id": "F1-M01",
+    "expected": "Sessão e política negam acesso por obra/ação e revogação/expiração têm efeito na próxima requisição.",
+    "proof_id": "P-004-01",
+    "source_spec": "spec-1-004-acesso-auditoria-recuperacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-004-02",
+    "module_id": "F1-M01",
+    "expected": "Mutação+audit+idempotência são atômicos e concorrência não sobrescreve.",
+    "proof_id": "P-004-02",
+    "source_spec": "spec-1-004-acesso-auditoria-recuperacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-004-03",
+    "module_id": "F1-M01",
+    "expected": "Histórico e download não vazam segredo nem dado comercial ao operacional.",
+    "proof_id": "P-004-03",
+    "source_spec": "spec-1-004-acesso-auditoria-recuperacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-004-04",
+    "module_id": "F1-M03",
+    "expected": "Reversão sem downstream reativa predecessora por evento; casos inseguros recusam.",
+    "proof_id": "P-004-04",
+    "source_spec": "spec-1-004-acesso-auditoria-recuperacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-004-05",
+    "module_id": "F1-M03",
+    "expected": "Snapshot lógico reimportado no sandbox mantém identidade, arquivo privado, permissão e revisão, sem tocar origem.",
+    "proof_id": "P-004-05",
+    "source_spec": "spec-1-004-acesso-auditoria-recuperacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-005-01",
+    "module_id": "F1-M04",
+    "expected": "Duas medidas físicas de 12 e 18 minutos produzem média/mediana 15, n=2, com fonte/volume; financeiro fica restrito.",
+    "proof_id": "P-005-01",
+    "source_spec": "spec-1-005-baseline-instrumentacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-005-02",
+    "module_id": "F1-M04",
+    "expected": "Dois handoffs corrigidos por motivo alvo entre dez produzem 20%; duplicidade não aumenta denominador.",
+    "proof_id": "P-005-02",
+    "source_spec": "spec-1-005-baseline-instrumentacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-005-03",
+    "module_id": "F1-M04",
+    "expected": "Ausência de reais, valores inválidos, data externa e homologação sem dono não geram baseline oficial.",
+    "proof_id": "P-005-03",
+    "source_spec": "spec-1-005-baseline-instrumentacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-005-04",
+    "module_id": "F1-M04",
+    "expected": "Plano validado tem mudança controlada, permissão e auditoria; não calcula ganho ou meta sem confirmação.",
+    "proof_id": "P-005-04",
+    "source_spec": "spec-1-005-baseline-instrumentacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-006-01",
+    "module_id": "F1-M05",
+    "expected": "Método discrimina fontes/categorias, contrato/aditivo e consumo; cada componente tem referência.",
+    "proof_id": "P-006-01",
+    "source_spec": "spec-1-006-modelo-saldo-reconciliacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-006-02",
+    "module_id": "F1-M05",
+    "expected": "Exemplo sintético homologável pelo método resulta em 70000 e documento duplicado não muda o saldo.",
+    "proof_id": "P-006-02",
+    "source_spec": "spec-1-006-modelo-saldo-reconciliacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-006-03",
+    "module_id": "F1-M05",
+    "expected": "Cancelamento rastreado e fonte/regra ausente impedem declaração indevida de saldo oficial.",
+    "proof_id": "P-006-03",
+    "source_spec": "spec-1-006-modelo-saldo-reconciliacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  },
+  {
+    "id": "CA-1-006-04",
+    "module_id": "F1-M05",
+    "expected": "Reconciliação real exige diferença zero e manifestação financeira; impedimento tem dono/marco e não remove promessa.",
+    "proof_id": "P-006-04",
+    "source_spec": "spec-1-006-modelo-saldo-reconciliacao.md",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
+  }
+]

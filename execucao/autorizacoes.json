@@ -1,19 +1,5 @@
 {
-  "records": [
-    {
-      "by": "Navaar",
-      "date": "2026-10-08",
-      "scope": "confirmar_desenho_criar_publicar_repo_privado",
-      "repo": "fnavaar/holder-steel-adapta-prototipo",
-      "context_policy": "operacional_integral_autorizado_ao_maestro_cliente",
-      "not_authorized": [
-        "alterar_app_Skip",
-        "ativar_plugin_global",
-        "convidar_usuarios",
-        "conectar_contas",
-        "migrar_Drive_quadro",
-        "alterar_repo_legado"
-      ]
-    }
-  ]
+  "status": "historico_superado",
+  "successor": "projeto.json e .adapta-cliente/estado-atual.md",
+  "original_commit": "b89c93d11da5b46230fdbf689dbbb0ec2b1f44c1"
 }

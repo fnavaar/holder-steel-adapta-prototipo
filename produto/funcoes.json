@@ -1,0 +1,58 @@
+[
+  {
+    "id": "FUN-OBRA-CONSULTA",
+    "module_id": "F1-M01",
+    "version": 1,
+    "status": "proposta",
+    "actor": "Planejamento autorizado da obra",
+    "need": "Encontrar contexto e documentos sem buscar em varios canais",
+    "behavior": "Selecionar obra autorizada, abrir resumo operacional e documentos permitidos, voltar mantendo contexto.",
+    "journey": [
+      "Selecionar obra",
+      "Consultar resumo/assinatura informada",
+      "Abrir documento permitido",
+      "Voltar sem perder contexto"
+    ],
+    "ui_states": [
+      "carregando",
+      "vazio",
+      "erro",
+      "sem_permissao",
+      "sucesso",
+      "nao_informado"
+    ],
+    "limits": [
+      "Consulta nao aprova compra/contrato/projeto.",
+      "Nao exibir comercial ao operacional nem outra obra."
+    ],
+    "source_refs": [
+      {
+        "kind": "source",
+        "ref": "SRC-PROCESSO"
+      },
+      {
+        "kind": "decision",
+        "ref": "D-OPERACAO"
+      }
+    ],
+    "criteria_ids": [
+      "CA-1-001-01",
+      "CA-1-001-02",
+      "CA-1-001-03"
+    ],
+    "questions": [
+      "Qual obra piloto e documentos autorizados?",
+      "Quais pessoas veem operacional/comercial?"
+    ],
+    "confirmed_by": null,
+    "confirmed_at": null,
+    "checks": [
+      {
+        "id": "FUN-OBRA-CONSULTA-C01",
+        "scenario": "Abrir resumo de obra autorizada e retornar a lista",
+        "expected": "Identidade e contexto de busca/filtro preservados",
+        "proof": "Percorrer jornada sintética no preview, recarregar e comparar estado/URL e resultado; nao implementado ainda."
+      }
+    ]
+  }
+]

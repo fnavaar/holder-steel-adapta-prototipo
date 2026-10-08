@@ -1,6 +1,3 @@
-# Jornada candidata — consultar obra e documentos
-Proposta, não tela construída nem função autorizada.
-Usuário: Planejamento autorizado na obra. Objetivo: encontrar contexto operacional e identificar informação faltante.
-Selecionar obra → abrir resumo com identidade/escopo → consultar documentos autorizados → pendências relacionadas e responsável → retornar sem perder filtro.
-Negativas: outra obra não listada; conteúdo comercial não aparece também em API/histórico/download; sem dados aparece não informado. Consultar não aprova compra, contrato ou projeto. Provar salvamento/releitura e autoria antes de dado real.
-O Maestro deve co-desenhar com Felipe Farias se os passos cabem na rotina; não escolher documento/pessoa real por inferência.
+# HISTORICO — superado em 08/10/2026
+
+Este caminho não contém instruções ativas. Fonte atual: README.md, projeto.json, contrato/ e .adapta-cliente/estado-atual.md. O conteúdo anterior está preservado no commit b89c93d11da5b46230fdbf689dbbb0ec2b1f44c1 do Git. A skill candidata antiga não está ativa; usar o plugin modular separado.

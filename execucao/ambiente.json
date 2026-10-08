@@ -1,14 +1,5 @@
 {
-  "repo_contexto": "fnavaar/holder-steel-adapta-prototipo",
-  "repo_legado": "fnavaar/holder-steel-adapta-cliente",
-  "plataforma": "Skip/SkipCloud",
-  "skip_project_id_declarado": 64034,
-  "skip_project_id_verificado_neste_run": null,
-  "repo_codigo": null,
-  "code_commit": null,
-  "preview_version_declarada": "v0.0.11",
-  "backend_version_verificada": null,
-  "submodule_configurado": false,
-  "maestro_conector_verificado": false,
-  "nota": "Declarações da investigação anterior não certificam runtime; inspecionar antes da construção. Nenhum projeto/conector criado nesta publicação."
+  "status": "historico_superado",
+  "successor": "projeto.json e .adapta-cliente/estado-atual.md",
+  "original_commit": "b89c93d11da5b46230fdbf689dbbb0ec2b1f44c1"
 }

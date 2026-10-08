@@ -1,4 +1,3 @@
-# Comparação e evidência
-Ler critérios/version do módulo + contrato da função confirmado + código no commit real + preview/backend + evidências executadas. Indicar demonstrado, não atendido, evidência insuficiente, não aplicável justificado ou decisão humana. Ausência de prova não equivale automaticamente a bug. Código existente não equivale a comportamento demonstrado.
-Gap: id, critério, esperado, observado, fonte (arquivo/linha/teste), consequência, gravidade, confiança, responsável, ação e condição de encerramento. Consultor valida devolutiva antes de enviar; Champion testa. Correção fica na mesma função/módulo. Nova exigência de aceite precisa de acordo versionado; não reprovar retrospectivamente.
-A cada commit: checagem/diff relevante; pronto: auditoria completa e regressão. Não exigir consultor para cada commit. Auditor inicialmente read-only, ferramentas de prova só em ambiente autorizado.
+# HISTORICO — superado em 08/10/2026
+
+Este caminho não contém instruções ativas. Fonte atual: README.md, projeto.json, contrato/ e .adapta-cliente/estado-atual.md. O conteúdo anterior está preservado no commit b89c93d11da5b46230fdbf689dbbb0ec2b1f44c1 do Git. A skill candidata antiga não está ativa; usar o plugin modular separado.

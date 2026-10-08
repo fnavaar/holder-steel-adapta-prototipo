@@ -1,16 +1,3 @@
-# Contrato da função — template
-Status inicial: proposta, não implementada/autorizada/aceita.
-- function_id / module_id / version:
-- Usuário, objetivo e valor:
-- Origem no processo e critérios cobertos:
-- Entradas, ações e saídas:
-- Regras, autoridade, exclusões:
-- Perguntas ao Champion junto à proposta:
-- Jornada e alternativas:
-- Telas, estados, ação principal, navegação:
-- Mudanças no código/dados já existentes (inspecionadas):
-- Autorização do recorte (fonte/data/pessoa), ou pendente:
-- Critério observável, provas e teste humano:
-- Commit, backend, versão preview e evidências:
-- Gap e próxima ação:
-Sem decisão: marcar hipótese/insumo; não inventar autorização. Aceite visual e aceite funcional distintos.
+# HISTORICO — superado em 08/10/2026
+
+Este caminho não contém instruções ativas. Fonte atual: README.md, projeto.json, contrato/ e .adapta-cliente/estado-atual.md. O conteúdo anterior está preservado no commit b89c93d11da5b46230fdbf689dbbb0ec2b1f44c1 do Git. A skill candidata antiga não está ativa; usar o plugin modular separado.

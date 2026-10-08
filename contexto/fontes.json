@@ -1,0 +1,17 @@
+[
+  {
+    "id": "SRC-PROCESSO",
+    "kind": "derivado",
+    "reference": "Comparacao do Drive 08/10; Plano f5a5acb7; videos nao vistos, analises derivadas consultadas."
+  },
+  {
+    "id": "SRC-AUTORIA",
+    "kind": "decision-source",
+    "reference": "Autoria 05/10 validada pelo consultor; apontada no contexto original."
+  },
+  {
+    "id": "SRC-LEGADO",
+    "kind": "criteria-source",
+    "reference": "Seis SPECs F1 v2 e 26 CAs selados na investigacao 08/10."
+  }
+]

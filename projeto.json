@@ -1,0 +1,52 @@
+{
+  "contract_id": "adapta-modular",
+  "contract_version": "1.0.0",
+  "client_id": "holder-steel-f5a5acb7",
+  "client_name": "Holder Steel",
+  "context_repo": "fnavaar/holder-steel-adapta-prototipo",
+  "champion": "Felipe Farias",
+  "phase": 1,
+  "context_visibility": "operacional_integral_autorizado",
+  "environment": {
+    "platform": "Skip/SkipCloud",
+    "declared_project_id": 64034,
+    "verified_project_id": null,
+    "code_repo": null,
+    "code_commit": null,
+    "preview_version": null
+  },
+  "context_files": [
+    "contexto/objetivo.md",
+    "contexto/processo-atual.md",
+    "contexto/combinados.md",
+    "contexto/limites.md",
+    "contexto/dicionario.md"
+  ],
+  "phases": [
+    {
+      "phase": 1,
+      "result": "Organizar obra e informacao",
+      "kind": "systems"
+    },
+    {
+      "phase": 2,
+      "result": "Preparar projeto e compra",
+      "kind": "systems"
+    },
+    {
+      "phase": 3,
+      "result": "Atendimento material e numeros da obra",
+      "kind": "systems"
+    },
+    {
+      "phase": 4,
+      "result": "Operar com loops controlados",
+      "kind": "loops"
+    },
+    {
+      "phase": 5,
+      "result": "Validar conjunto e resultado",
+      "kind": "validation"
+    }
+  ]
+}

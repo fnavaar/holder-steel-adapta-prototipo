@@ -1,23 +1,8 @@
-# Holder Steel — construção assistida por módulos
+# Holder Steel — pacote Adapta Modular 1.0.0
+Contexto vinculado ao plugin adapta-cliente-modular 0.4.0-pilot.1. Gerado localmente; nao substitui repo publicado nem instala plugin.
+Ler projeto.json → contrato/LEIA-ME.md → estado unico → contexto/modulo. Fonte da funcao: produto/funcoes.json; criterio protegido: validacao/criterios.json. Proposta nao e autorizacao. O Maestro co-desenha, apresenta plano, aguarda autorizacao e teste. Um incremento, nao ordem tecnica predeterminada.
+Antes de escrever, conferir client_id holder-steel-f5a5acb7, repo fnavaar/holder-steel-adapta-prototipo e versao/contrato. Null nao e autorizacao nem ambiente verificado. Ler somente este caso. Nao dados reais/segredos/brutos internos.
+O JSON execucao/estado.json do prototipo anterior NAO acompanha este pacote. Migracao local deliberada para .adapta-cliente/estado-atual.md; remoto ainda intacto.
 
-Repositório privado de contexto operacional e desenho de produto. O Maestro pode consultar e explicar todo o conteúdo deste repo ao cliente, por autorização de Navaar em 08/10/2026. Não confundir privacidade do GitHub com sigilo perante o usuário do agente.
-
-## Começar
-1. Ler AGENTS.md, contexto/decisoes-vigentes.md e execucao/estado.json.
-2. Ler contexto/processo-operacional.md, produto/sistema-idealizado.md e produto/fases.md para localizar a função desejada.
-3. Selecionar o módulo e desenhar uma jornada com o Champion; registrar a proposta em produto/funcoes/ pelo template, sem inventar autorização.
-4. Inspecionar o sistema existente e confirmar recorte antes de construir no Skip.
-5. Executar provas e teste humano; aceite de tela não equivale a aceite de módulo.
-
-Frase de entrada: “Ajude-me a desenhar uma função do módulo atual”. O Maestro deve co-desenhar, não executar automaticamente a próxima task legada.
-
-## Autoridades
-- Processo/decisões: contexto/.
-- Resultado contratado e critérios: produto/fase-atual/modulos/ + validacao/criterios.json.
-- Interface/jornada: produto/ui-ux/ e produto/jornadas/.
-- Estado e autorizações: execucao/; autorização documental NÃO autoriza mudança no aplicativo.
-- Protocolo candidato do plugin: plugin/skills/construir-por-modulos/SKILL.md. Publicação não instala/ativa plugin no runtime.
-
-O repo anterior fnavaar/holder-steel-adapta-cliente permanece intacto. Não copiar seu estado antigo por cima do código nem recomeçar o banco. Código técnico, gitlink/submódulo e conexão do Maestro ainda não configurados neste repo.
-
-Nenhum arquivo real de contrato, NF, planilha sensível, senha, token ou transcrição bruta acompanha o pacote. Fontes são referências; métodos internos e crítica da consultoria não acompanham. Sistemas nas fases 1–3, loops F4 e validação F5 formam o desenho aprovado por Navaar nesta conversa; isso não registra aceite operacional/nominal do cliente nem altera o Drive.
+## Plugin e onboarding
+Consumidor: https://github.com/fnavaar/plugin-cliente-adapta-modular. Ler onboarding-maestro.md antes de carregar. Contrato e schemas idênticos no produtor/consumidor; publicação não é instalação nem autorização de implementar. Fontes antigas foram marcadas como histórico; conteúdo original preservado no Git.

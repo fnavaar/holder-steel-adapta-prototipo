@@ -1,0 +1,29 @@
+[
+  {
+    "id": "D-OPERACAO",
+    "status": "confirmed",
+    "by": "Navaar",
+    "at": "2026-10-05",
+    "statement": "Sistema integrado por obra e financeiro da obra no ciclo; fontes/categorias humanas, sem decisoes automaticas.",
+    "source_ref": "SRC-AUTORIA",
+    "scope": "Resultado funcional; nao autorizacao do aplicativo."
+  },
+  {
+    "id": "D-PILOTO",
+    "status": "confirmed",
+    "by": "Navaar",
+    "at": "2026-10-08",
+    "statement": "Contexto operacional integral autorizado; novo padrao modular e co-design por funcao; criacao local deste contrato/plugin/pacote.",
+    "source_ref": "Pedido do usuario na conversa 08/10",
+    "scope": "Documentacao/kit local; nao autoriza push/instalacao/alteracao app."
+  },
+  {
+    "id": "D-ENV",
+    "status": "historical",
+    "by": "Holder via estado GitHub",
+    "at": "2026-10-06",
+    "statement": "Estado declarou Skip 64034 v0.0.11 BOOT implementado e teste humano pendente. Nao inspecionado neste kit.",
+    "source_ref": "Investigacao 08/10 do repo legado",
+    "scope": "Declaracao tecnica, nao PASS atual ou aceite."
+  }
+]

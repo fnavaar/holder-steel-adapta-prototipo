@@ -1,0 +1,143 @@
+[
+  {
+    "id": "F1-M01",
+    "phase": 1,
+    "title": "Encontrar a obra e seus documentos",
+    "result": "Encontrar a obra e seus documentos",
+    "limits": [
+      "Preservar seguranca/historico/recuperacao e criterios; nao inferir aprovacao humana.",
+      "Publicacao/documento nao autoriza implementacao; dados reais so em destino autorizado."
+    ],
+    "source_refs": [
+      {
+        "kind": "source",
+        "ref": "SRC-PROCESSO"
+      },
+      {
+        "kind": "decision",
+        "ref": "D-OPERACAO"
+      }
+    ],
+    "content_path": "produto/modulos/F1-M01.md",
+    "criteria_ids": [
+      "CA-1-001-01",
+      "CA-1-001-02",
+      "CA-1-001-03",
+      "CA-1-001-04",
+      "CA-1-004-01",
+      "CA-1-004-02",
+      "CA-1-004-03"
+    ]
+  },
+  {
+    "id": "F1-M02",
+    "phase": 1,
+    "title": "Saber o que cada área precisa resolver",
+    "result": "Saber o que cada área precisa resolver",
+    "limits": [
+      "Preservar seguranca/historico/recuperacao e criterios; nao inferir aprovacao humana.",
+      "Publicacao/documento nao autoriza implementacao; dados reais so em destino autorizado."
+    ],
+    "source_refs": [
+      {
+        "kind": "source",
+        "ref": "SRC-PROCESSO"
+      },
+      {
+        "kind": "decision",
+        "ref": "D-OPERACAO"
+      }
+    ],
+    "content_path": "produto/modulos/F1-M02.md",
+    "criteria_ids": [
+      "CA-1-002-01",
+      "CA-1-002-02",
+      "CA-1-002-03",
+      "CA-1-002-04"
+    ]
+  },
+  {
+    "id": "F1-M03",
+    "phase": 1,
+    "title": "Usar a Lista Master correta sem perder a anterior",
+    "result": "Usar a Lista Master correta sem perder a anterior",
+    "limits": [
+      "Preservar seguranca/historico/recuperacao e criterios; nao inferir aprovacao humana.",
+      "Publicacao/documento nao autoriza implementacao; dados reais so em destino autorizado."
+    ],
+    "source_refs": [
+      {
+        "kind": "source",
+        "ref": "SRC-PROCESSO"
+      },
+      {
+        "kind": "decision",
+        "ref": "D-OPERACAO"
+      }
+    ],
+    "content_path": "produto/modulos/F1-M03.md",
+    "criteria_ids": [
+      "CA-1-003-01",
+      "CA-1-003-02",
+      "CA-1-003-03",
+      "CA-1-003-04",
+      "CA-1-003-05",
+      "CA-1-004-04",
+      "CA-1-004-05"
+    ]
+  },
+  {
+    "id": "F1-M04",
+    "phase": 1,
+    "title": "Medir o esforço e o retrabalho sem inventar ganho",
+    "result": "Medir o esforço e o retrabalho sem inventar ganho",
+    "limits": [
+      "Preservar seguranca/historico/recuperacao e criterios; nao inferir aprovacao humana.",
+      "Publicacao/documento nao autoriza implementacao; dados reais so em destino autorizado."
+    ],
+    "source_refs": [
+      {
+        "kind": "source",
+        "ref": "SRC-PROCESSO"
+      },
+      {
+        "kind": "decision",
+        "ref": "D-OPERACAO"
+      }
+    ],
+    "content_path": "produto/modulos/F1-M04.md",
+    "criteria_ids": [
+      "CA-1-005-01",
+      "CA-1-005-02",
+      "CA-1-005-03",
+      "CA-1-005-04"
+    ]
+  },
+  {
+    "id": "F1-M05",
+    "phase": 1,
+    "title": "Entender e conferir o saldo contratual da obra",
+    "result": "Entender e conferir o saldo contratual da obra",
+    "limits": [
+      "Preservar seguranca/historico/recuperacao e criterios; nao inferir aprovacao humana.",
+      "Publicacao/documento nao autoriza implementacao; dados reais so em destino autorizado."
+    ],
+    "source_refs": [
+      {
+        "kind": "source",
+        "ref": "SRC-PROCESSO"
+      },
+      {
+        "kind": "decision",
+        "ref": "D-OPERACAO"
+      }
+    ],
+    "content_path": "produto/modulos/F1-M05.md",
+    "criteria_ids": [
+      "CA-1-006-01",
+      "CA-1-006-02",
+      "CA-1-006-03",
+      "CA-1-006-04"
+    ]
+  }
+]

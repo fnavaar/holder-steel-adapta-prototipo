@@ -1,3 +1,3 @@
-# Instruções
+# Ponteiro de protocolo
 
-Ler e seguir AGENTS.md como protocolo único. Consultar execucao/estado.json e o módulo pertinente. Não carregar instruções de outro cliente ou inventar gate. Não há plugin global instalado por este arquivo.
+Ler AGENTS.md, projeto.json e contrato. Nao criar regra paralela; usar memoria do bundle modular carregado explicitamente. Nao confundir arquivo presente com skill/plugin ativo.
