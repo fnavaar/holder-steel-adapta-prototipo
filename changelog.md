@@ -1,6 +1,6 @@
 # Historico
 
-09/10: Revisao de acesso de Planejamento formalizada como issue #1 (insumo pendente do co-design FUN-OBRA-CONSULTA/F1-M01). Resposta do modal registrada: somente quem dara o OK da area altera a observacao. CA-1-001-02/CA-1-004-03 permanecem validos; funcao segue proposta. Nada implementado/autorizado.
+09/10 (atualização): decisão D-PLANEJAMENTO-LEITURA aprovada e refletida nos CA-1-001-02/CA-1-004-03, F1-M01 e FUN-OBRA-CONSULTA: Planejamento pode consultar em somente leitura dados detalhados apenas nas obras autorizadas. Co-design sem bloqueio global; vínculo usuário↔obra e arquivos do piloto são insumos do desenho. Nenhum código/Skip/acesso real alterado; função continua proposta.
 
 08/10: geracao local do contexto canonico; contratos identicos ao plugin, estado unico. 26 criterios e 16 UUIDs preservados. Nenhum push/convite/conector ou migracao remota.
 

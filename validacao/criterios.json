@@ -11,10 +11,10 @@
   {
     "id": "CA-1-001-02",
     "module_id": "F1-M01",
-    "expected": "Operador de Planejamento lê operacional sem ver valor/condições detalhadas/anexo comercial; obra B não é listada.",
+    "expected": "Usuário de Planejamento autorizado para a obra pode consultar, em modo somente leitura, dados operacionais, valores e condições comerciais/financeiras detalhadas e documentos/anexos vinculados àquela obra. Obras não autorizadas não são listadas nem acessíveis; outros perfis operacionais não recebem essa permissão.",
     "proof_id": "P-001-02",
     "source_spec": "spec-1-001-obra-kickoff.md",
-    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "evidence_required": "Prova sanitizada no commit/preview/backend identificado: Planejamento autorizado lê os dados detalhados da obra autorizada; acesso a outra obra e a perfil operacional sem essa autorização é negado e a obra não aparece. Verificar UI, API server-side, histórico, downloads e anexos; tentativas de criar/editar/excluir/decidir são recusadas; teste humano complementar.",
     "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
   },
   {
@@ -137,10 +137,10 @@
   {
     "id": "CA-1-004-03",
     "module_id": "F1-M01",
-    "expected": "Histórico e download não vazam segredo nem dado comercial ao operacional.",
+    "expected": "Histórico, API, downloads e anexos respeitam autorização por usuário e obra: Planejamento autorizado pode ler detalhes comerciais/financeiros somente na obra autorizada; usuários sem autorização e outros perfis operacionais não recebem esses dados; segredo nunca é exposto.",
     "proof_id": "P-004-03",
     "source_spec": "spec-1-004-acesso-auditoria-recuperacao.md",
-    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado; negativas conforme contrato da origem; teste humano complementar.",
+    "evidence_required": "Prova executada e sanitizada no commit/preview/backend identificado, cobrindo leitura autorizada e negativas em outra obra/perfil nos caminhos de histórico, API, download e anexo; confirmar que mutações/decisões seguem negadas e nenhum segredo é exposto; teste humano complementar.",
     "criticality": "Não usar nota média para compensar falha de acesso, integridade, histórico, recuperação ou cálculo."
   },
   {

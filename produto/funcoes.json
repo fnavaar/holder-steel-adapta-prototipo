@@ -4,9 +4,9 @@
     "module_id": "F1-M01",
     "version": 1,
     "status": "proposta",
-    "actor": "Planejamento autorizado da obra",
+    "actor": "Usuário de Planejamento autorizado para a obra",
     "need": "Encontrar contexto e documentos sem buscar em varios canais",
-    "behavior": "Selecionar obra autorizada, abrir resumo operacional e documentos permitidos, voltar mantendo contexto.",
+    "behavior": "Selecionar uma obra para a qual o usuário está autorizado; consultar em modo somente leitura o resumo, os dados comerciais/financeiros detalhados e documentos/anexos permitidos daquela obra; voltar mantendo contexto. Obras não autorizadas não são listadas nem acessíveis.",
     "journey": [
       "Selecionar obra",
       "Consultar resumo/assinatura informada",
@@ -22,8 +22,9 @@
       "nao_informado"
     ],
     "limits": [
-      "Consulta nao aprova compra/contrato/projeto.",
-      "Nao exibir comercial ao operacional nem outra obra."
+      "Consulta somente leitura. Não criar, editar, excluir nem aprovar contrato, compra, projeto ou lançamento financeiro.",
+      "Detalhes comerciais/financeiros e documentos/anexos só são visíveis ao usuário de Planejamento autorizado para aquela obra; não listar nem acessar obras não autorizadas.",
+      "Aplicar autorização na interface, API server-side, histórico, downloads e anexos. Não ampliar a regra a outros perfis operacionais. Nenhum acesso real é ativado por esta proposta."
     ],
     "source_refs": [
       {
@@ -33,26 +34,31 @@
       {
         "kind": "decision",
         "ref": "D-OPERACAO"
+      },
+      {
+        "kind": "decision",
+        "ref": "D-PLANEJAMENTO-LEITURA"
       }
     ],
     "criteria_ids": [
       "CA-1-001-01",
       "CA-1-001-02",
-      "CA-1-001-03"
+      "CA-1-001-03",
+      "CA-1-004-03"
     ],
     "questions": [
-      "Qual obra piloto e documentos autorizados?",
-      "Quais pessoas veem operacional/comercial?",
-      "Resolvido 09/10 via modal F1-M01 + issue #1: somente a pessoa que dara o OK daquela area pode registrar/atualizar a observacao; revisao de acesso de Planejamento pendente como issue #1 (CA-1-001-02 e CA-1-004-03 permanecem validos; funcao nao confirmada quanto a este acesso)."
+      "Qual obra piloto e quais documentos/anexos entram na jornada?",
+      "Quais usuários de Planejamento e quais obras serão autorizados no piloto? Registrar o vínculo usuário↔obra antes de qualquer acesso real; coletar no co-design, sem bloquear o desenho das demais partes.",
+      "Quem valida o registro da obra e qual projeto Skip será usado? Confirmar o ambiente antes de qualquer implementação."
     ],
     "confirmed_by": null,
     "confirmed_at": null,
     "checks": [
       {
         "id": "FUN-OBRA-CONSULTA-C01",
-        "scenario": "Abrir resumo de obra autorizada e retornar a lista",
-        "expected": "Identidade e contexto de busca/filtro preservados",
-        "proof": "Percorrer jornada sintética no preview, recarregar e comparar estado/URL e resultado; nao implementado ainda."
+        "scenario": "Usuário de Planejamento autorizado consulta detalhes e documentos da obra autorizada; depois tenta abrir outra obra e tenta mutar dados.",
+        "expected": "Leitura detalhada somente na obra autorizada; obra não autorizada não aparece nem pode ser aberta; UI/API server-side, histórico, downloads e anexos respeitam o mesmo escopo; mutações e decisões são recusadas.",
+        "proof": "Não executado. Em incremento futuro autorizado: evidência sanitizada por usuário, obra, rota e versão runtime; provas positiva e negativas em UI/API, histórico, downloads e anexos; teste humano do Champion."
       }
     ]
   }

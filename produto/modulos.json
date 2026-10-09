@@ -6,7 +6,8 @@
     "result": "Encontrar a obra e seus documentos",
     "limits": [
       "Preservar seguranca/historico/recuperacao e criterios; nao inferir aprovacao humana.",
-      "Publicacao/documento nao autoriza implementacao; dados reais so em destino autorizado."
+      "Publicacao/documento nao autoriza implementacao; dados reais so em destino autorizado.",
+      "Planejamento autorizado consulta, somente para leitura, detalhes comerciais/financeiros e documentos/anexos apenas nas obras autorizadas; negar mutações/decisões e aplicar o mesmo escopo na UI, API server-side, histórico, downloads e anexos; outros perfis e obras não autorizadas não recebem acesso."
     ],
     "source_refs": [
       {
@@ -16,6 +17,10 @@
       {
         "kind": "decision",
         "ref": "D-OPERACAO"
+      },
+      {
+        "kind": "decision",
+        "ref": "D-PLANEJAMENTO-LEITURA"
       }
     ],
     "content_path": "produto/modulos/F1-M01.md",

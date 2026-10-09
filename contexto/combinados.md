@@ -14,3 +14,10 @@ Reorganização modular confirmada nesta conversa não prova aceite nominal do c
 Investigação 08/10: Drive estado-atual ainda reinício/a fazer; GitHub declara T01/BOOT implementada Skip 64034 v0.0.11 e aguardando teste humano, progresso 0/16. Não reexecutado runtime; não reiniciar, aceitar ou alterar o código com base somente nessas declarações. Inspecionar evidências/versão antes de usar.
 
 Precedência: autorização humana explícita do recorte → critérios/decisões → proposta confirmada da função → código/evidência. Publicação deste repo não autoriza o módulo inteiro. Interface proposta não altera regra financeira.
+
+
+## Decisão de acesso Planejamento e continuidade — 09/10/2026
+
+Navaar aprovou consulta detalhada em somente leitura de dados comerciais/financeiros e documentos/anexos por usuário de Planejamento somente nas obras autorizadas (`D-PLANEJAMENTO-LEITURA`, issue #2). Sem criar/editar/excluir, aprovar/alterar contrato, compra, projeto ou lançamento; sem listar/acessar outras obras ou ampliar outros perfis.
+
+O co-design de F1-M01 e partes independentes podem prosseguir sem bloqueio global. O vínculo pessoa↔obra e os arquivos do piloto são insumos a registrar no desenho antes de qualquer acesso real. `validacao/matriz-legado.json` é proposta histórica `proposta-nao-aplicada`, não política ativa. A aprovação não ativa runtime, não é prova de segurança ou aceite da função e não substitui a autorização específica de incremento.

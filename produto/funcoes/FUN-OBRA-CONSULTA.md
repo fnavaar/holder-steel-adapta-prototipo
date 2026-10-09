@@ -1,9 +1,19 @@
-# Funcao candidata — encontrar obra e documentos
+# Função candidata — consultar obra e documentos
 
-Exemplo co-desenhavel, nao implementado/confirmado/autorizado. Fonte estruturada: produto/funcoes.json. Linguagem ao cliente: o que queremos resolver, como funciona, como conferir. Nao fingir escolhas, explicar limitacoes e pedir os insumos junto ao combinado.
+`FUN-OBRA-CONSULTA` continua **proposta**. Este registro permite avançar o co-design, não declara a função aceita nem autoriza implementação.
 
-## Pendencia de acesso (09/10/2026)
+## Decisão de acesso aprovada (09/10/2026)
 
-- Revisao de acesso de Planejamento formalizada na [issue #1](https://github.com/fnavaar/holder-steel-adapta-prototipo/issues/1).
-- Resposta do modal "F1-M01 — Observacao de pendencia": **somente a pessoa que dara o OK daquela area** pode registrar/atualizar a observacao (outros membros da area nao alteram; a area acompanha a resolucao e atualiza a observacao na task, sem edicao geral do card/documentos; task pendente ate os dois OKs, preservando autoria e historico).
-- Efeito: `CA-1-001-02` e `CA-1-004-03` permanecem validos; a proposta da funcao **nao pode ser confirmada** quanto a este acesso ate o fechamento da issue e o aceite do Champion Felipe Farias.
+Navaar aprovou que o usuário de Planejamento autorizado para uma obra consulte, em **somente leitura**, dados comerciais/financeiros detalhados e documentos/anexos daquela obra. Obras não autorizadas não aparecem nem são acessíveis. A autorização deve ser aplicada na UI e no servidor/API, histórico, downloads e anexos. Outros perfis operacionais não recebem essa ampliação.
+
+**Não inclui:** criar, editar ou excluir dados; aprovar ou alterar contratos, compras, projetos ou lançamentos financeiros; ativar permissões ou usar dados reais. Fonte: `D-PLANEJAMENTO-LEITURA` em `contexto/decisoes.json` e [issue #2](https://github.com/fnavaar/holder-steel-adapta-prototipo/issues/2).
+
+## Continuidade do co-design
+
+O co-design da função pode continuar agora, sem bloqueio global pela revisão de acesso. A obra/documentos do piloto e o vínculo usuários↔obras são insumos a coletar no desenho da jornada e do plano do incremento; enquanto não forem registrados, não se ativa acesso real, mas as partes independentes podem avançar.
+
+A regra separada do modal [issue #1](https://github.com/fnavaar/holder-steel-adapta-prototipo/issues/1) continua válida: somente a pessoa que dará o OK daquela área atualiza a observação da pendência; isso não concede edição geral do card/documentos; preservar autoria e histórico.
+
+## Aceite e execução
+
+`status` permanece `proposta`; `confirmed_by` e `confirmed_at` permanecem nulos até aceite explícito do Champion Felipe Farias. Nenhuma implementação, ativação no Skip ou teste humano é alegado.

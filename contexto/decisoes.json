@@ -34,5 +34,14 @@
     "statement": "A informacao util do Drive deve ficar no centro das ideias do repo, organizada por significado e rastreabilidade, sem copiar arquivos brutos ou dados reais.",
     "source_ref": "Pedido do usuario na conversa de 08/10/2026",
     "scope": "Documentacao e modelo de contexto; nao autoriza implementacao, integracao ou ativacao."
+  },
+  {
+    "id": "D-PLANEJAMENTO-LEITURA",
+    "status": "confirmed",
+    "by": "Navaar (Consultor)",
+    "at": "2026-10-09",
+    "statement": "Planejamento pode consultar em modo somente leitura dados comerciais e financeiros detalhados e documentos/anexos da obra somente quando o usuário estiver autorizado para aquela obra; não pode criar, editar, excluir, aprovar ou alterar contrato, compra, projeto ou lançamento financeiro; obras não autorizadas não são listadas nem acessíveis; outros perfis operacionais não recebem essa ampliação.",
+    "source_ref": "Aprovação explícita de Navaar na conversa de 2026-10-09 e issue #2 deste repositório",
+    "scope": "Regra de acesso e co-design da FUN-OBRA-CONSULTA/F1-M01. Identidade dos usuários e vínculo usuário↔obra do piloto são insumos do desenho. Não autoriza mudança de código, ativação no Skip ou uso de dado real; não é aceite da função nem autorização de incremento."
   }
 ]
