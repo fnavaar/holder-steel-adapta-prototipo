@@ -42,7 +42,8 @@
     ],
     "questions": [
       "Qual obra piloto e documentos autorizados?",
-      "Quais pessoas veem operacional/comercial?"
+      "Quais pessoas veem operacional/comercial?",
+      "Resolvido 09/10 via modal F1-M01 + issue #1: somente a pessoa que dara o OK daquela area pode registrar/atualizar a observacao; revisao de acesso de Planejamento pendente como issue #1 (CA-1-001-02 e CA-1-004-03 permanecem validos; funcao nao confirmada quanto a este acesso)."
     ],
     "confirmed_by": null,
     "confirmed_at": null,
