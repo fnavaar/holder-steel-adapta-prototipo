@@ -14,7 +14,7 @@ Uma entrada clara, módulo ativo, resultado desejado, prévia e próximo passo. 
 - Obra/escopo/revisão sempre visíveis no contexto da tela.
 - Ação principal clara por tela; tarefas relacionadas agrupadas.
 - Campos em linguagem da Holder, exemplos e ajuda contextual; obrigatório versus não informado explícitos.
-- Detalhes comerciais somente ao perfil permitido, também na API e histórico.
+- Planejamento pode consultar, somente para leitura, detalhes comerciais/financeiros e documentos/anexos apenas quando o usuário estiver autorizado para aquela obra; outras obras e perfis operacionais não recebem esses dados. Aplicar o mesmo controle na UI, autorização server-side/API, histórico, downloads e anexos; mutações e decisões financeiras permanecem negadas.
 - Listas com busca/filtros úteis, preservando contexto ao abrir e voltar.
 - Formulários com salvamento confirmado, validação próxima do campo e aviso de edição concorrente.
 - Estados de carregamento, vazio, erro, sem permissão, dado incompleto e sucesso distinguíveis.
